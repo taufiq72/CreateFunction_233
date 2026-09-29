@@ -8,3 +8,6 @@ def converts_temperature(value, unit):
 
 input_value = int(input("Masukkan value: "))
 input_unit = input("Masukkan unit (C/F): ")
+
+konversi = converts_temperature(input_value, input_unit)
+print(f"Hasil konversi: {konversi}")
