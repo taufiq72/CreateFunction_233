@@ -5,3 +5,6 @@ def converts_temperature(value, unit):
         return (value - 32) * 5/9
     else:
         print("Tidak ada unit")
+
+input_value = int(input("Masukkan value: "))
+input_unit = input("Masukkan unit (C/F): ")
